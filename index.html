@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+
+    <!-- Icons Library Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <meta name="author" content="Igor Melo">
+    <meta name="keywords" content="Pokémon, Pokémons, Pokédex">
+    <meta name="description" content="Pokédex. Encontre informações sobre qualquer tipo de pokémon existente.">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1><a href="#" class="header__logo">Pokédex</a></h1>
+    </header>
+
+    <section class="search">
+        <p class="search__info">Procure um pokémon pelo nome ou usando seu número na Pokédex Nacional.</p>
+
+
+        <div class="search__content">
+            <form class="search__form">
+                <div class="form__group">
+                    <button type="submit" id="search__submit"><i class='bx bx-search'></i></button>
+                    <input type="text" name="pokemon-input" id="pokemon-input" placeholder="Nome ou número">
+                </div>
+            </form>
+    
+            <button class="search__filter" id="btn-filter"><i class='bx bx-slider'></i></button>
+        </div>
+    </section>
+
+
+    <main class="main">
+        <ul class="pokedex">
+
+      <!--       <li class="pokemon">
+                <img src="" alt="" class="pokemon__img">
+                <h2 class="pokemon__name"></h2>
+                <span class="pokemon__id"></span>
+                <div class="pokemon__types">
+                    <span class="type"></span>
+                </div>
+            </li> -->
+
+
+            
+
+        </ul>
+
+        <button class="btn-load-pokemons">Carregar Mais</button>
+    </main>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
