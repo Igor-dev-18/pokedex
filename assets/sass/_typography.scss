@@ -1,0 +1,68 @@
+$title-font: 'Fredoka One',
+cursive;
+$text-font: 'Open Sans',
+sans-serif;
+
+// font sizes
+@mixin xs($weight:400) {
+    font-size: 0.702rem;
+    line-height: 150%;
+    font-weight: $weight;
+
+    @media (min-width: 900px) {
+        font-size: 0.79rem;
+    }
+}
+
+@mixin sm($weight:400) {
+    font-size: 0.79rem;
+    line-height: 150%;
+    font-weight: $weight;
+
+    @media (min-width: 900px) {
+        font-size: 1rem;
+    }
+
+}
+
+
+@mixin md($weight:400) {
+    font-size: 0.889rem;
+    line-height: 150%;
+    font-weight: $weight;
+
+    @media (min-width: 900px) {
+        font-size: 1.125rem;
+    }
+
+}
+
+@mixin lg($weight:400) {
+    font-size: 1rem;
+    line-height: 150%;
+    font-weight: $weight;
+
+    @media (min-width: 900px) {
+        font-size: 1.266rem;
+    }
+
+}
+
+@mixin xl($weight:400) {
+    font-size: 1.802rem;
+    line-height: 150%;
+    font-weight: $weight;
+
+    @media (min-width: 900px) {
+        font-size: 2.281rem;
+        line-height: 130%;
+    }
+
+}
+
+@mixin icons{
+    font-size: 1.266rem;
+    @media (min-width: 900px) {
+        font-size: 1.602rem;
+    }
+}

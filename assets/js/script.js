@@ -61,7 +61,7 @@ function createPokemonCard(pokemon) {
     <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png" alt="${pokemon.name}" class="pokemon__img">
                     <h2 class="pokemon__name">${pokemon.name}</h2>
                     <span class="pokemon__id">Nº ${idFormatado}</span>
-                    <div>${typesTemplate}</div>
+                    <div class="pokemon__types">${typesTemplate}</div>
                     
                     
     `;
